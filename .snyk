@@ -1,8 +1,42 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-567746:
     - express.oi > lodash:
         patched: '2020-05-01T07:28:17.393Z'
+  'npm:debug:20170905':
+    - express.oi > socket.io > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > engine.io > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-adapter > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-parser > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-09-22T17:10:22.856Z'
+  'npm:ms:20170412':
+    - express.oi > socket.io > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > engine.io > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'
+    - express.oi > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-09-22T17:10:22.856Z'

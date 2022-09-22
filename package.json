@@ -16,15 +16,15 @@
     "express": "^4.14.0",
     "express.oi": "0.0.21",
     "jquery": "^3.1.1",
-    "open": "^0.0.5",
+    "open": "^6.0.0",
     "which": "^1.2.12",
-    "snyk": "^1.316.1"
+    "@snyk/protect": "latest"
   },
   "version": "0.2.2",
   "scripts": {
     "start": "node index.js",
     "test": "mocha test/app.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
